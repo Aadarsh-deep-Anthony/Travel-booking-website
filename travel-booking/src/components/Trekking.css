@@ -1,0 +1,122 @@
+.trekking {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f4f9ff;
+}
+
+.trekking h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #1e3a5f;
+}
+
+/* Slider */
+.trek-slider {
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.trek-slider img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.left {
+  left: 15px;
+}
+
+.right {
+  right: 15px;
+}
+
+.arrow:hover {
+  background: #ff6600;
+}
+
+/* Dots */
+.slider-dots {
+  margin-top: 15px;
+}
+
+.slider-dots span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 5px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-dots .active {
+  background: #ff6600;
+}
+
+/* Trek Cards */
+.trek-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  width: 90%;
+  margin: auto;
+}
+
+.trek-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.trek-card:hover {
+  transform: translateY(-8px);
+}
+
+.trek-card h3 {
+  margin-bottom: 15px;
+  color: #1e3a5f;
+}
+
+.trek-card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.trek-card h4 {
+  color: #ff6600;
+  margin-bottom: 15px;
+}
+
+.trek-card button {
+  padding: 8px 15px;
+  border: none;
+  background: whitesmoke;
+  color: #ff6600;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.trek-card button:hover {
+  background: aliceblue;
+}
